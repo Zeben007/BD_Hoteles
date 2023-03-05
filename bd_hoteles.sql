@@ -150,23 +150,23 @@ insert into habitaciones values(3, 3, 100, 'normal');
 insert into habitaciones values(4, 4, 360, 'delux');
 insert into habitaciones values(5, 5, 250, 'luxo');
 
-insert into hoteles_habitaciones value(1, 1);
-insert into hoteles_habitaciones value(2, 2);
-insert into hoteles_habitaciones value(3, 3);
-insert into hoteles_habitaciones value(4, 4);
-insert into hoteles_habitaciones value(5, 5);
+insert into hoteles_habitaciones values(1, 1);
+insert into hoteles_habitaciones values(2, 2);
+insert into hoteles_habitaciones values(3, 3);
+insert into hoteles_habitaciones values(4, 4);
+insert into hoteles_habitaciones values(5, 5);
 
-insert into proveedor value(1, 'Recursos S.L.', 666112233);
-insert into proveedor value(2, 'Recursos 2 S.L.', 666112244);
-insert into proveedor value(3, 'Recursos 3 S.L.', 666112255);
-insert into proveedor value(4, 'Recursos 4 S.L.', 666112266);
-insert into proveedor value(5, 'Chanchullos Paco', 666112277);
+insert into proveedor values(1, 'Recursos S.L.', 666112233);
+insert into proveedor values(2, 'Recursos 2 S.L.', 666112244);
+insert into proveedor values(3, 'Recursos 3 S.L.', 666112255);
+insert into proveedor values(4, 'Recursos 4 S.L.', 666112266);
+insert into proveedor values(5, 'Chanchullos Paco', 666112277);
 
-insert into producto value(1, 1, 400, 10, 'Sillas');
-insert into producto value(2, 2, 40, 2, 'Mesitas de café');
-insert into producto value(3, 3, 1400, 4, 'Ordenadores');
-insert into producto value(4, 4, 200, 5, 'Vajillas');
-insert into producto value(5, 5, 200, 10, 'Sábanas');
+insert into producto values(1, 1, 400, 10, 'Sillas');
+insert into producto values(2, 2, 40, 2, 'Mesitas de café');
+insert into producto values(3, 3, 1400, 4, 'Ordenadores');
+insert into producto values(4, 4, 200, 5, 'Vajillas');
+insert into producto values(5, 5, 200, 10, 'Sábanas');
 
 
 
