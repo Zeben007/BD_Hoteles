@@ -109,7 +109,6 @@ add constraint FK_proveedor2 foreign key (id_proveedor) references proveedor(id_
 alter table cliente
 add constraint FK_reserva2 foreign key (id_reserva) references reserva(id_reserva);
 
-
 insert into proveedor values(1, 'Recursos S.L.', 666112233);
 insert into proveedor values(2, 'Recursos 2 S.L.', 666112244);
 insert into proveedor values(3, 'Recursos 3 S.L.', 666112255);
@@ -158,7 +157,6 @@ insert into cliente values ('54728865Y',3, 'parral','nadia', 333256980);
 insert into cliente values ('45128999S',4, 'vega', 'luis', 666520641);
 insert into cliente values ('56222589V', 5, 'casiano','ayaya', 356875200);
 
-
 insert into habitaciones values(1, 1, 100, 'normal','como todas');
 insert into habitaciones values(2, 2, 100, 'normal', 'de toa la via');
 insert into habitaciones values(3, 3, 100, 'normal', 'como toas');
@@ -170,7 +168,6 @@ insert into hoteles_habitaciones values(2, 2);
 insert into hoteles_habitaciones values(3, 3);
 insert into hoteles_habitaciones values(4, 4);
 insert into hoteles_habitaciones values(5, 5);
-
 
 insert into producto values(1, 1, 400, 10, 'Sillas');
 insert into producto values(2, 2, 40, 2, 'Mesitas de café');
